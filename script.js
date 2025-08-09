@@ -241,7 +241,7 @@ window.addEventListener('scroll', () => {
     const hero = document.querySelector('.hero');
     const rate = scrolled * -0.5;
     
-    if (hero) {
+    if (hero && window.screen.width >= 768) {
         hero.style.transform = `translateY(${rate}px)`;
     }
 });

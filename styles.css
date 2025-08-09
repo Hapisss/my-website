@@ -746,6 +746,7 @@ section {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
+        margin-top: 25px;
     }
 
     .hero-title {
@@ -755,6 +756,10 @@ section {
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .hero-social {
+        justify-content: center;
     }
 
     .about-content {
